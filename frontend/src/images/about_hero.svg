@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="abBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <linearGradient id="abPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2878E5"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="abShadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#101828" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base Card -->
+  <rect x="10" y="10" width="500" height="360" rx="20" fill="url(#abBg)" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Main Card -->
+  <g filter="url(#abShadow)">
+    <rect x="36" y="34" width="448" height="312" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  </g>
+
+  <!-- Top Window Header Controls -->
+  <circle cx="60" cy="56" r="4.5" fill="#EF4444"/>
+  <circle cx="74" cy="56" r="4.5" fill="#F59E0B"/>
+  <circle cx="88" cy="56" r="4.5" fill="#10B981"/>
+
+  <text x="110" y="60" font-family="'DM Mono', monospace" font-size="10" font-weight="700" fill="#64748B" letter-spacing="1">STUDIO PHILOSOPHY &amp; SQUAD ARCHITECTURE</text>
+  <rect x="390" y="46" width="78" height="20" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="429" y="60" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5" text-anchor="middle">ACTIVE SQUAD</text>
+
+  <!-- Left: Studio Pillars -->
+  <g transform="translate(56, 82)">
+    <rect x="0" y="0" width="190" height="90" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B" text-transform="uppercase">Engineering Discipline</text>
+    <text x="16" y="52" font-family="'Space Grotesk', system-ui, sans-serif" font-size="20" font-weight="800" fill="#101828">Code Over PDFs</text>
+    <text x="16" y="74" font-family="'DM Mono', monospace" font-size="9.5" font-weight="700" fill="#2878E5">✓ Direct Git Pull Requests</text>
+  </g>
+
+  <!-- Right: Retention Rate -->
+  <g transform="translate(262, 82)">
+    <rect x="0" y="0" width="206" height="90" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B" text-transform="uppercase">Client Retention</text>
+    <text x="16" y="52" font-family="'Space Grotesk', system-ui, sans-serif" font-size="26" font-weight="800" fill="#10B981">94% YoY</text>
+    <text x="16" y="74" font-family="system-ui, sans-serif" font-size="9.5" fill="#64748B">Month-to-month, zero lock-in</text>
+  </g>
+
+  <!-- Middle Squad Nodes Visual -->
+  <g transform="translate(56, 186)">
+    <rect x="0" y="0" width="412" height="94" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- User Node 1 -->
+    <circle cx="56" cy="47" r="22" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <circle cx="56" cy="41" r="7" fill="#2878E5"/>
+    <path d="M42 55 C42 49, 48 48, 56 48 C64 48, 70 49, 70 55" fill="#2878E5"/>
+    <text x="56" y="78" font-family="'DM Mono', monospace" font-size="8.5" font-weight="700" fill="#101828" text-anchor="middle">Search Lead</text>
+
+    <!-- Connector 1-2 -->
+    <line x1="82" y1="47" x2="134" y2="47" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- User Node 2 -->
+    <circle cx="160" cy="47" r="22" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+    <circle cx="160" cy="41" r="7" fill="#10B981"/>
+    <path d="M146 55 C146 49, 152 48, 160 48 C168 48, 174 49, 174 55" fill="#10B981"/>
+    <text x="160" y="78" font-family="'DM Mono', monospace" font-size="8.5" font-weight="700" fill="#101828" text-anchor="middle">Tech Architect</text>
+
+    <!-- Connector 2-3 -->
+    <line x1="186" y1="47" x2="238" y2="47" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- User Node 3 -->
+    <circle cx="264" cy="47" r="22" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1.5"/>
+    <circle cx="264" cy="41" r="7" fill="#7C3AED"/>
+    <path d="M250 55 C250 49, 256 48, 264 48 C272 48, 278 49, 278 55" fill="#7C3AED"/>
+    <text x="264" y="78" font-family="'DM Mono', monospace" font-size="8.5" font-weight="700" fill="#101828" text-anchor="middle">PPC Lead</text>
+
+    <!-- Connector 3-4 -->
+    <line x1="290" y1="47" x2="342" y2="47" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="3 3"/>
+
+    <!-- User Node 4 -->
+    <circle cx="368" cy="47" r="22" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+    <circle cx="368" cy="41" r="7" fill="#D97706"/>
+    <path d="M354 55 C354 49, 360 48, 368 48 C376 48, 382 49, 382 55" fill="#D97706"/>
+    <text x="368" y="78" font-family="'DM Mono', monospace" font-size="8.5" font-weight="700" fill="#101828" text-anchor="middle">PR &amp; Entity</text>
+  </g>
+
+  <!-- Bottom Badges Strip -->
+  <g transform="translate(56, 292)">
+    <rect x="0" y="0" width="130" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="14" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#101828">Senior Squad Only</text>
+
+    <rect x="140" y="0" width="130" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="154" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#101828">Direct Slack/Jira</text>
+
+    <rect x="280" y="0" width="132" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="294" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#2878E5">100% White-Hat</text>
+  </g>
+</svg>
+

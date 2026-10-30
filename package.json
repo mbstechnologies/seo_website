@@ -1,0 +1,11 @@
+{
+  "name": "seo-growth-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Northstar Growth Studio — Enterprise SEO, PPC & Performance Marketing Web Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  }
+}

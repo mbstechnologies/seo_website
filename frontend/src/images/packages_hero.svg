@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2878E5"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2878E5" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#2878E5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#101828" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background Card -->
+  <rect x="10" y="10" width="500" height="360" rx="20" fill="url(#bgGrad)" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Main Analytics Board -->
+  <g filter="url(#cardShadow)">
+    <rect x="36" y="34" width="448" height="312" rx="16" fill="url(#cardGrad)" stroke="#CBD5E1" stroke-width="1.2"/>
+  </g>
+
+  <!-- Top Window Header Controls -->
+  <circle cx="60" cy="56" r="4.5" fill="#EF4444"/>
+  <circle cx="74" cy="56" r="4.5" fill="#F59E0B"/>
+  <circle cx="88" cy="56" r="4.5" fill="#10B981"/>
+
+  <text x="110" y="60" font-family="'DM Mono', monospace" font-size="11" font-weight="700" fill="#64748B" letter-spacing="1">ROI &amp; GROWTH VELOCITY MATRIX</text>
+  <rect x="382" y="46" width="86" height="20" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="425" y="60" font-family="'DM Mono', monospace" font-size="9.5" font-weight="700" fill="#059669" text-anchor="middle">+340% LTV</text>
+
+  <!-- Inner Split: Left Column (Metrics) -->
+  <rect x="56" y="82" width="180" height="110" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="72" y="104" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B" text-transform="uppercase">Compounding Return</text>
+  <text x="72" y="134" font-family="'Space Grotesk', system-ui, sans-serif" font-size="24" font-weight="800" fill="#101828">₹14.8 Cr</text>
+  <rect x="72" y="146" width="70" height="18" rx="4" fill="#EFF6FF"/>
+  <text x="107" y="159" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5" text-anchor="middle">▲ 4.8x ROAS</text>
+  <text x="72" y="180" font-family="system-ui, sans-serif" font-size="9.5" fill="#64748B">Attributed Pipeline ARR</text>
+
+  <!-- Right Column: Bar Chart -->
+  <rect x="252" y="82" width="216" height="110" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="268" y="104" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B">ORGANIC TRAFFIC SCALE</text>
+
+  <!-- Bars -->
+  <rect x="272" y="145" width="22" height="35" rx="4" fill="#E2E8F0"/>
+  <rect x="306" y="132" width="22" height="48" rx="4" fill="#BFDBFE"/>
+  <rect x="340" y="118" width="22" height="62" rx="4" fill="#93C5FD"/>
+  <rect x="374" y="104" width="22" height="76" rx="4" fill="#3B82F6"/>
+  <rect x="408" y="90" width="22" height="90" rx="4" fill="url(#primaryGrad)"/>
+
+  <!-- Base Grid Line -->
+  <line x1="266" y1="180" x2="444" y2="180" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Bottom Strip: Retainer Features & Badges -->
+  <g transform="translate(56, 208)">
+    <!-- Badge 1: 0 Lock-in -->
+    <rect x="0" y="0" width="128" height="58" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="20" cy="24" r="10" fill="#EFF6FF"/>
+    <path d="M16 24L19 27L24 21" stroke="#2878E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="11" font-weight="700" fill="#101828">Month-to-Month</text>
+    <text x="36" y="36" font-family="system-ui, sans-serif" font-size="9" fill="#64748B">30-Day Exit Notice</text>
+    <rect x="14" y="44" width="100" height="4" rx="2" fill="#E2E8F0"/>
+    <rect x="14" y="44" width="75" height="4" rx="2" fill="#2878E5"/>
+
+    <!-- Badge 2: Quarterly Sprint Save 15% -->
+    <rect x="142" y="0" width="144" height="58" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="162" cy="24" r="10" fill="rgba(16, 185, 129, 0.2)"/>
+    <path d="M158 24L161 27L166 21" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="178" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Quarterly Sprint</text>
+    <text x="178" y="36" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#10B981">15% SAVED / QUARTER</text>
+    <rect x="156" y="44" width="116" height="4" rx="2" fill="rgba(255,255,255,0.1)"/>
+    <rect x="156" y="44" width="98" height="4" rx="2" fill="#10B981"/>
+
+    <!-- Badge 3: 94% Retention -->
+    <rect x="300" y="0" width="112" height="58" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="312" y="22" font-family="'DM Mono', monospace" font-size="8.5" font-weight="700" fill="#64748B">RETENTION RATE</text>
+    <text x="312" y="42" font-family="'Space Grotesk', system-ui, sans-serif" font-size="18" font-weight="800" fill="#10B981">94.2%</text>
+    <text x="362" y="40" font-family="system-ui, sans-serif" font-size="8.5" fill="#64748B">YoY Avg</text>
+  </g>
+
+  <!-- Bottom Status Footer -->
+  <line x1="56" y1="284" x2="468" y2="284" stroke="#F1F5F9" stroke-width="1"/>
+  <circle cx="70" cy="304" r="3.5" fill="#10B981"/>
+  <text x="82" y="308" font-family="'DM Mono', monospace" font-size="9.5" fill="#475467">Tier-1 PR, Technical Audits, Conversion Funnels &amp; PMax Included</text>
+  <text x="424" y="308" font-family="'DM Mono', monospace" font-size="9.5" font-weight="700" fill="#2878E5">LIVE ROI</text>
+</svg>
+

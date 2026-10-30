@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="csBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <linearGradient id="csPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2878E5"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="csEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="csShadow" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#101828" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="10" y="10" width="500" height="360" rx="20" fill="url(#csBg)" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Main Card -->
+  <g filter="url(#csShadow)">
+    <rect x="36" y="34" width="448" height="312" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  </g>
+
+  <!-- Top Browser Bar -->
+  <circle cx="60" cy="56" r="4.5" fill="#EF4444"/>
+  <circle cx="74" cy="56" r="4.5" fill="#F59E0B"/>
+  <circle cx="88" cy="56" r="4.5" fill="#10B981"/>
+
+  <text x="110" y="60" font-family="'DM Mono', monospace" font-size="10" font-weight="700" fill="#64748B" letter-spacing="1">VERIFIED ATTRIBUTION LOG &amp; PIPELINE AUDIT</text>
+  <rect x="390" y="46" width="78" height="20" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="429" y="60" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5" text-anchor="middle">VERIFIED</text>
+
+  <!-- Metric 1: Inbound ARR -->
+  <rect x="56" y="82" width="190" height="90" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="72" y="102" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B" text-transform="uppercase">Attributed Pipeline</text>
+  <text x="72" y="132" font-family="'Space Grotesk', system-ui, sans-serif" font-size="24" font-weight="800" fill="#101828">₹85 Cr+</text>
+  <text x="72" y="154" font-family="'DM Mono', monospace" font-size="9.5" font-weight="700" fill="#10B981">▲ 340% Avg Partnership Lift</text>
+
+  <!-- Metric 2: Retention & Safe Execution -->
+  <rect x="262" y="82" width="206" height="90" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="278" y="102" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#64748B" text-transform="uppercase">Google Search Dominance</text>
+  <text x="278" y="132" font-family="'Space Grotesk', system-ui, sans-serif" font-size="24" font-weight="800" fill="#2878E5">12,400+</text>
+  <text x="278" y="154" font-family="'DM Mono', monospace" font-size="9.5" font-weight="700" fill="#64748B">Page 1 Keywords Secured</text>
+
+  <!-- Middle Graph Curve Area -->
+  <g transform="translate(56, 186)">
+    <rect x="0" y="0" width="412" height="94" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Background Grid Lines -->
+    <line x1="20" y1="24" x2="392" y2="24" stroke="#F1F5F9" stroke-width="1"/>
+    <line x1="20" y1="48" x2="392" y2="48" stroke="#F1F5F9" stroke-width="1"/>
+    <line x1="20" y1="72" x2="392" y2="72" stroke="#F1F5F9" stroke-width="1"/>
+
+    <!-- Upward Trend Curves -->
+    <path d="M20 72 C 80 68, 140 60, 200 44 C 260 28, 320 20, 392 12" stroke="url(#csPrimary)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M20 72 C 80 68, 140 60, 200 44 C 260 28, 320 20, 392 12 L 392 78 L 20 78 Z" fill="url(#csPrimary)" fill-opacity="0.06"/>
+
+    <!-- Highlight Dots on Trend Curve -->
+    <circle cx="200" cy="44" r="4" fill="#2878E5" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="392" cy="12" r="5" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+
+    <text x="32" y="38" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5">Organic Traffic Baseline</text>
+    <text x="280" y="24" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#10B981">Peak Scaling (+810%)</text>
+  </g>
+
+  <!-- Bottom Badges Strip -->
+  <g transform="translate(56, 292)">
+    <rect x="0" y="0" width="130" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="14" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#101828">FinTech &amp; SaaS</text>
+    <text x="96" y="22" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5">+340%</text>
+
+    <rect x="140" y="0" width="130" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="154" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#101828">E-Commerce D2C</text>
+    <text x="240" y="22" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#10B981">₹14.8 Cr</text>
+
+    <rect x="280" y="0" width="132" height="36" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="294" y="22" font-family="'Space Grotesk', system-ui, sans-serif" font-size="10" font-weight="700" fill="#101828">Multi-City Healthcare</text>
+    <text x="390" y="22" font-family="'DM Mono', monospace" font-size="9" font-weight="700" fill="#2878E5">140+</text>
+  </g>
+</svg>
+
